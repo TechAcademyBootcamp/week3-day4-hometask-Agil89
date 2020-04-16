@@ -1,0 +1,206 @@
+:root {
+    --primary-font: 'Poppins',sans-serif;
+    --secondary-font: 'Roboto',sans-serif;
+    --font-awesome: 'Font Awesome 5 Pro';
+    --primary-color: #ff2c54;
+    --secondary-color: #ff9500;
+    --action-color: #fecc00;
+    --grey-dark-key: #000;
+    --grey-dark-one: #121213;
+    --grey-dark-two: #494e51;
+    --grey-dark-three: #6b7074;
+    --grey-dark-four: #7b7b7b;
+    --grey-dark-five: #2b2b2b;
+    --grey-dark-six: #cecece;
+    --grey-dark-seven: #1a1a1a;
+    --grey-dark-eight: #3f3f3f;
+    --grey-mid: #c1c6c9;
+    --grey-light-one: #d3d7da;
+    --grey-light-two: #f0f0f0;
+    --grey-light-three: #f9f9f9;
+    --border-color: #e6e6e6;
+    --color-white: #fff;
+    --color-success: #3eb75e;
+    --color-warning: #ff8f3c;
+    --color-info: #1ba2db;
+    --color-danger: #ff0003;
+    --color-facebook: #3b5997;
+    --color-twitter: #1ba1f2;
+    --color-youtube: #ed4141;
+    --color-linkedin: #0077b5;
+    --color-pinterest: #e60022;
+    --color-instagram: #c231a1;
+    --color-vimeo: #00adef;
+    --color-twitch: #6441a3;
+    --color-green-one: #4cd965;
+    --color-green-two: #3cd289;
+    --color-green-three: #008079;
+    --color-blue-one: #007aff;
+    --color-blue-two: #5ac8fa;
+    --color-blue-three: #01abf2;
+    --color-blue-four: #4c8ebc;
+    --color-red-one: #ff3a30;
+    --color-red-two: #ff4f00;
+    --color-purple-one: #5856d5;
+    --color-purple-two: #ca9cf4;
+    --color-yellow-one: #ffd400;
+    --color-yellow-two: #fde953;
+    --color-blue-grey-one: #3f5573;
+    --radius: 4px;
+    --radius-big: 6px;
+    --radius-small: 2px;
+    --p-light: 300;
+    --p-regular: 400;
+    --p-medium: 500;
+    --p-semi-bold: 600;
+    --p-bold: 700;
+    --p-extra-bold: 800;
+    --p-black: 900;
+    --s-light: 300;
+    --s-regular: 400;
+    --s-medium: 500;
+    --s-bold: 700;
+    --s-black: 900;
+    --shadow-light: 0 2px 6px 0 rgba(0,0,0,.05);
+    --shadow-dark: 0 2px 6px 0 rgba(0,0,0,.2);
+    --cubic-easing: cubic-bezier(.86,0,.07,1);
+}
+html{
+    font-size: 10px;
+}
+body{
+    font-family: var(--primary-font);
+    font-size: 1.6rem;
+    line-height: 1.7;
+    margin: 0;
+    padding: 0;
+    color: var(--grey-dark-two);
+}
+.nav-lines{
+    width: 20px;
+    height: 2px;
+    margin-bottom: 5px;
+    background-color: black;
+    
+}
+.header-middle{
+    padding: 0px 60px;
+    
+}
+header{
+    background-color: #f9f9f9;
+    border-bottom: 1px solid rgb(233, 233, 233);
+    z-index: 1000;
+    position: fixed;
+}
+.after-header{
+    background: linear-gradient(135deg,#ebeaf4 0%,#b5c0e1 100%,#b5c0e1 100%);
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    background-color: #fff;
+    padding: 5rem 0 8.4rem;
+}
+.circle{
+    transform: translateX(-50%) scale(1);
+    top: -65%;
+    left: 50%;
+    position: absolute;
+    width: 93.7rem;
+    height: 93.7rem;
+    border-radius: 50%;
+    background: rgba(255,255,255,.3);
+    transform: scale(.2);
+    transition: all 1s;
+}
+.circle-2{
+    transform: translateX(-50%) scale(1);
+    bottom:-30%;
+    left: -15%;
+    position: absolute;
+    width: 71rem;
+    height: 71rem;
+    border-radius: 50%;
+    background: rgba(255,255,255,.3);
+    transform: scale(.2);
+    transition: all 1s;
+
+}
+.header-middle ul{
+    padding-top: 20px;
+}
+.header-middle li{
+    font-size: 1.1em;
+    color: black;
+    font-family: var(--primary-font);
+}
+li{
+    list-style: none;
+}
+.first-list{
+    top:-450%;
+    background-color: #f9f9f9;
+    position: absolute;
+    font-size: 14px;
+    display: flex;
+    flex-flow: column;
+    justify-content: start;
+    
+    
+}
+.first-list li{
+    font-family: var(--primary-font);
+    font-size: 15px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    color: rgb(53, 53, 53);
+}
+.first-list.show1{
+    top:98px;
+    left: 290px;
+}
+.second-list{
+    top:-400%;
+    background-color: white;
+    position: absolute;
+}
+.second-list.show2{
+    top:75px;
+    left:300px;
+}
+.third-list{
+    top:-400%;
+    background-color: white;
+    position: absolute;
+}
+.forth-list{
+    top:-400%;
+    background-color: white;
+    position: absolute;
+}
+.second-list li{
+    font-family: var(--primary-font);
+    font-size: 15px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    color: rgb(53, 53, 53);
+}
+.third-list li{
+    font-family: var(--primary-font);
+    font-size: 15px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    color: rgb(53, 53, 53);
+}
+.forth-list li{
+    font-family: var(--primary-font);
+    font-size: 15px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    color: rgb(53, 53, 53);
+}
+.shares{
+    rotate: 90;
+}
