@@ -6,10 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <title>Document</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_o5hd5vvqpoqiwwmi.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -23,7 +26,7 @@
         </div>
         <nav class="header-middle " style="width: 70%;">
             <ul class="d-flex  justify-content-between align-items-center">
-                <li class="header-home">Home
+                <li class="header-home"><a href="">Home</a>
                     <ul class="first-list">
                         <li>Home One</li>
                         <li>Home Two</li>
@@ -71,7 +74,7 @@
             </ul>
         </nav>
         <div class="header-right d-flex justify-content-around align-items-center" style="width: 15%;">
-            <div class="header-search"><i class="fa fa-search" aria-hidden="true"></i></div>
+            <div class="header-search"><i style="font-size: 20px;" class="fas fa-search" aria-hidden="true"></i></div>
             <div class="header-shopping"><i style='font-size:24px' class='fas'>&#xf07a;</i></div>
             <div class="header-hamburger">
                 <div class="nav-lines"></div>
@@ -79,36 +82,253 @@
                 <div class="nav-lines"></div>
             </div>
         </div>
+
     </header>
+    <div class="right-menu">
+        <div class="x-button">x</div>
+        <div class="search-line">
+            <nav class="navbar navbar-light bg-light">
+                <form class="form-inline">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </nav>
+        </div>
+        <div class="row">
+            <div class="col-6 d-flex flex-column">
+                <a href="">Business</a>
+                <a href="">Lifestyle</a>
+                <a href="">Technology</a>
+            </div>
+            <div class="col-6">
+                <p>Contact Information</p>
+                <p>Theodore Lowe, Ap #867-859</p>
+                <p> Rd, Azusa New York</p>
+                <p>We Are Available 24/7.Call</p>
+                <p>Now.</p>
+                <p><i class="fas fa-phone"></i>(888) 456-2790</p>
+                <p><i class="fas fa-fax"></i>(121) 255-53333</p>
+                <p><i class="fas fa-envelope"></i>example@domain.com</p>
+            </div>
+        </div>
+    </div>
     <div class="after-header">
 
         <div class="circle"></div>
         <div class="circle-2"></div>
-        <div class="row">
-            <div class="col-6">
-                <div class="ashley">
-                <img alt="" src="http://0.gravatar.com/avatar/048eb53619909f210b8dc6c51f07b884?s=105&amp;d=mm&amp;r=g"
-                    data-src="http://0.gravatar.com/avatar/048eb53619909f210b8dc6c51f07b884?s=105&amp;d=mm&amp;r=g"
-                    data-srcset="http://0.gravatar.com/avatar/048eb53619909f210b8dc6c51f07b884?s=210&amp;d=mm&amp;r=g 2x"
-                    class="avatar avatar-105 photo m-r-xs-20 rounded-circle lazyloaded"
-                    srcset="http://0.gravatar.com/avatar/048eb53619909f210b8dc6c51f07b884?s=210&amp;d=mm&amp;r=g 2x"
-                    width="105" height="105">
-                <p>Ashley Graham</p>
+        <div class="container">
+            <div class="body1 row">
+                <div class="col-6 align-items-center ">
+                    <div class="ashley d-flex align-items-center">
+                        <img style="width:50px;height: 50px;" alt=""
+                            src="http://0.gravatar.com/avatar/048eb53619909f210b8dc6c51f07b884?s=105&amp;d=mm&amp;r=g"
+                            data-src="http://0.gravatar.com/avatar/048eb53619909f210b8dc6c51f07b884?s=105&amp;d=mm&amp;r=g"
+                            data-srcset="http://0.gravatar.com/avatar/048eb53619909f210b8dc6c51f07b884?s=210&amp;d=mm&amp;r=g 2x"
+                            class="avatar avatar-105 photo m-r-xs-20 rounded-circle lazyloaded"
+                            srcset="http://0.gravatar.com/avatar/048eb53619909f210b8dc6c51f07b884?s=210&amp;d=mm&amp;r=g 2x"
+                            width="105" height="105">
+                        <p class="Ashley" style="margin-left: 15px;font-size: 1.5rem;color: grey;">Ashley Graham</p>
+                    </div>
+                    <h1 style="font-size: 4.2rem;font-weight:bold">29 Motivational Quotes For Business And Other Work
+                        Environments</h1>
+                    <div>
+                        <button class="red-btn  m-r-xs-30">Read More</button>
+                        <a class="all-c" href="">ALL CURRENT NEWS</a>
+                    </div>
                 </div>
-                <h1>29 Motivational Quotes For Business And Other Work Environments</h1>
-                <div>
-                    <button>Read More</button>
-                    <a href="">ALL CURRENT NEWS</a>
+                <div class="col-6">
+                    <div class="d-flex">
+
+                        <div style="position:relative; width:306px">
+                            <div style="font-size: 1.6rem;font-weight: bold;" class="shares">Shares<span
+                                    class="ml-2">+</span></div><img
+                                style="width:35.5rem; height: 55rem; object-fit: cover;" src="banner1.jpg">
+                        </div>
+                        <div style="position:relative; width:306px"><img style="left: 75px;
+                    position: absolute;
+                    top: 282px; width:18rem; height: 20rem;" src="banner2.jpg">
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-6">
-                <div class="shares">Shares +</div>
             </div>
         </div>
     </div>
+    <div class="banners">
+        <div class="container-fluid">
+            <div class="row justify-content-around bg-light" style="padding:-10px">
+                <div class="bigger col-2"><a href="" class="list-inner_slider"
+                        style="background-image: url(https://cdn.shortpixel.ai/client/q_lossless,ret_img/http://axilthemes.com/themes/papr/wp-content/uploads/2019/08/home-03-post-img-02.jpg);">
+                        <div class="overlay ">
+                            <div class="plus-c align-items-center d-flex flex-column justify-content-center"><span
+                                    class="counter">1+</span>
+                                <h4 class="h4-class">Accessories</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-2">
+                    <a href="" class="list-inner_slider"
+                        style="background-image: url(https://cdn.shortpixel.ai/client/q_lossless,ret_img/http://axilthemes.com/themes/papr/wp-content/uploads/2019/08/home-banner-slider-3.jpg)">
+                        <div class="overlay ">
+                            <div class="plus-c align-items-center d-flex flex-column justify-content-center"><span
+                                    class="counter">7+</span>
+                                <h4 class="h4-class">Business</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-2">
+                    <a href="http://axilthemes.com/themes/papr/category/computer/" class="list-inner_slider"
+                        style="background-image: url(https://cdn.shortpixel.ai/client/q_lossless,ret_img/http://axilthemes.com/themes/papr/wp-content/uploads/2019/08/home-03-post-img-01.jpg)">
+                        <div class="overlay ">
+                            <div class="plus-c align-items-center d-flex flex-column justify-content-center"><span
+                                    class="counter">1+</span>
+                                <h4 class="h4-class">Computer</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-2">
+                    <a href="http://axilthemes.com/themes/papr/category/contests/" class="list-inner_slider"
+                        style="background-image: url(https://cdn.shortpixel.ai/client/q_lossless,ret_img/http://axilthemes.com/themes/papr/wp-content/uploads/2019/08/home-03-post-img-03.jpg)">
+                        <div class="overlay ">
+                            <div class="plus-c align-items-center d-flex flex-column justify-content-center"><span
+                                    class="counter">1+</span>
+                                <h4 class="h4-class">Contests</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-2">
+                    <a href="http://axilthemes.com/themes/papr/category/electronics/" class="list-inner_slider"
+                        style="background-image: url(https://cdn.shortpixel.ai/client/q_lossless,ret_img/http://axilthemes.com/themes/papr/wp-content/uploads/2019/08/post-img-01.jpg)">
+                        <div class="overlay ">
+                            <div class="plus-c align-items-center d-flex flex-column justify-content-center">
+                                <span
+                                    class="counter">1+</span>
+                                <h4 class="h4-class">Electronics</h4>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row" style="padding-top: 50px;">
+            <div class="col-8 d-flex">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="row ">
+                            <div class="col-5 hoving">
+                                <img class="home-banner" style="width: 90%;" src="home-banner-slider-2-400x400.jpg">
+                            </div>
+                            <div class="col-7">
+                                <h5 style="font-size: 1.5rem; width: 86px; background-color: #007aff;">COMPUTER</h5>
+                                <h1 style="font-weight: bold;">Compare Prices Find The Best Computer Accessory</h1>
+                                <p>By Ashley Graham <i class="feather icon-activity"></i> 78 Views</p>
+                                <p style="font-size: 1.8rem;">These eight shots crystallize the hard work moms put into
+                                    keeping
+                                    their kids alive, happy, and
+                                    healthy. They might give you the inspiration you need</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-5 hoving">
+                                <img class="home-banner" style="width: 90%;" src="home-banner-slider-2-400x400.jpg">
+                            </div>
+                            <div class="col-7">
+                                <h5 style="font-size: 1.5rem; width: 86px; background-color: #007aff;">COMPUTER</h5>
+                                <h1 style="font-weight: bold;">Compare Prices Find The Best Computer Accessory</h1>
+                                <p>By Ashley Graham <i class="feather icon-activity"></i> 78 Views</p>
+                                <p style="font-size: 1.8rem;">These eight shots crystallize the hard work moms put into
+                                    keeping
+                                    their kids alive, happy, and
+                                    healthy. They might give you the inspiration you need</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-4">
+                <div class="social row">
+                    <div class="col-12">
+                        <div class="row">
+                        <div class="col-3">
+                            <a href="#" class="fa fa-facebook"><span class="d-flex flex-column align-items-center">
+                                    <p>0</p>
+                                    <p>Likes</p>
+                                </span></a>
+                        </div>
+                        <div class="col-3">
+                            <a href="#" class="fa fa-twitter"><span class="d-flex flex-column align-items-center">
+                                    <p>0</p>
+                                    <p>Likes</p>
+                                </span></a>
+                        </div>
+                        <div class="col-3">
+                            <a href="#" class="fa fa-youtube"><span class="d-flex flex-column align-items-center">
+                                    <p>0</p>
+                                    <p>Likes</p>
+                                </span></a>
+                        </div>
+                        <div class="col-3">
+                            <a href="#" class="fa fa-linkedin"><span class="d-flex flex-column align-items-center">
+                                    <p>0</p>
+                                    <p>Likes</p>
+                                </span></a>
+                        </div>
+                        <div class="col-3">
+                            <a href="#" class="fa fa-vimeo"><span class="d-flex flex-column align-items-center">
+                                    <p>0</p>
+                                    <p>Likes</p>
+                                </span></a>
+                        </div>
+                        <div class="col-3">
+                            <a href="#" class="fa fa-pinterest"><span class="d-flex flex-column align-items-center">
+                                    <p>0</p>
+                                    <p>Likes</p>
+                                </span></a>
+                        </div>
+                        <div class="col-3">
+                            <a href="#" class="fa fa-instagram"><span class="d-flex flex-column align-items-center">
+                                    <p>0</p>
+                                    <p>Likes</p>
+                                </span></a>
+                        </div>
+                        <div class="col-3">
+                            <a href="#" class="fa fa-rss"><span class="d-flex flex-column align-items-center">
+                                    <p>0</p>
+                                    <p>Likes</p>
+                                </span></a>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="navig-icon"><img class="svg-file" src="send.svg"></div>
+                        <h1>Subscribe To Our Weekly Newsletter</h1>
+                        <h5>No spam, notifications only about new products, updates.</h5>
+                        <div><input type="email" placeholder="Enter Email Address"></div>
+                        <div><button>SUBSCRIBE</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
     <script>
         document.querySelector('.header-home').addEventListener('click', function () {
             document.querySelector('.first-list').classList.toggle('show1');
+        })
+    </script>
+    <script>
+        document.querySelector('.header-hamburger').addEventListener('click', function () {
+            document.querySelector('.right-menu').classList.toggle('showi');
         })
     </script>
     <script>
