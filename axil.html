@@ -24,9 +24,9 @@
                 data-src="http://axilthemes.com/themes/papr/wp-content/themes/papr/assets/img/logo-black.svg"
                 alt="Papr">
         </div>
-        <nav class="header-middle " style="width: 70%;">
+        <nav class="header-middle" style="width: 70%;">
             <ul class="d-flex  justify-content-between align-items-center">
-                <li class="header-home"><a href="">Home</a>
+                <li class="header-home">Home
                     <ul class="first-list">
                         <li>Home One</li>
                         <li>Home Two</li>
@@ -84,31 +84,46 @@
         </div>
 
     </header>
-    <div class="right-menu">
-        <div class="x-button">x</div>
-        <div class="search-line">
-            <nav class="navbar navbar-light bg-light">
-                <form class="form-inline">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
-            </nav>
-        </div>
-        <div class="row">
-            <div class="col-6 d-flex flex-column">
-                <a href="">Business</a>
-                <a href="">Lifestyle</a>
-                <a href="">Technology</a>
+    <div class="right-menu d-flex flex-column justify-content-around">
+        <div class="cont" style="width: 80%;margin: auto;">
+            <div class="x-button d-flex justify-content-end" style="position: absolute;right:12%;top: 20px;"><span
+                    class="x-but" style="font-size: 30px;" class="close">&times;</span></div>
+            <div class="search-line w-100">
+                <nav class="navbar navbar-light" style="background-color: white;">
+                    <form class="form-inline w-100" style="position: relative; height: 50px;background-color: white;">
+                        <input style=" width: 100%;border:none; border-bottom: 1px solid grey;"
+                            class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <i style="bottom: 20px; right: 0; position: absolute; font-size: 30px;opacity: 0.6;"
+                            class="fas fa-search" aria-hidden="true"></i>
+                    </form>
+                </nav>
             </div>
-            <div class="col-6">
-                <p>Contact Information</p>
-                <p>Theodore Lowe, Ap #867-859</p>
-                <p> Rd, Azusa New York</p>
-                <p>We Are Available 24/7.Call</p>
-                <p>Now.</p>
-                <p><i class="fas fa-phone"></i>(888) 456-2790</p>
-                <p><i class="fas fa-fax"></i>(121) 255-53333</p>
-                <p><i class="fas fa-envelope"></i>example@domain.com</p>
+            <div class="row">
+                <div class="rm-a col-6 d-flex flex-column justify-content-around">
+                    <a href="">
+                        <h1 style="padding-left: 50px;font-weight: bold; font-size: 35px;color: black;">Business</h1>
+                    </a>
+                    <a href="">
+                        <h1 style="padding-left: 50px;font-weight: bold; font-size: 35px;color:black;">Lifestyle</h1>
+                    </a>
+                    <a href="">
+                        <h1 style="padding-left: 50px;font-weight: bold; font-size: 35px;color: black;">Technology</h1>
+                    </a>
+                </div>
+                <div class="col-6 ">
+                    <div class="row ">
+                        <div class="col-12 d-flex flex-column justify-content-around" style="height: 400px;">
+                        <h3 style="font-weight: bold;">Contact Information</h3>
+                        <p>Theodore Lowe, Ap #867-859</p>
+                        <p> Rd, Azusa New York</p>
+                        <h3 style="font-weight: bold;">We Are Available 24/7.Call</h3>
+                        <p>Now.</p>
+                        <p><i class="fas fa-phone"></i>(888) 456-2790</p>
+                        <p><i class="fas fa-fax"></i>(121) 255-53333</p>
+                        <p><i class="fas fa-envelope"></i>example@domain.com</p>
+                    </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -156,7 +171,7 @@
     <div class="banners">
         <div class="container-fluid">
             <div class="row justify-content-around bg-light" style="padding:-10px">
-                <div class="bigger col-2"><a href="" class="list-inner_slider"
+                <div class="bigger col-12 col-md-6 col-lg-2"><a href="" class="list-inner_slider"
                         style="background-image: url(https://cdn.shortpixel.ai/client/q_lossless,ret_img/http://axilthemes.com/themes/papr/wp-content/uploads/2019/08/home-03-post-img-02.jpg);">
                         <div class="overlay ">
                             <div class="plus-c align-items-center d-flex flex-column justify-content-center"><span
@@ -166,7 +181,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-2">
+                <div class="col-12 col-md-6 col-lg-2 ">
                     <a href="" class="list-inner_slider"
                         style="background-image: url(https://cdn.shortpixel.ai/client/q_lossless,ret_img/http://axilthemes.com/themes/papr/wp-content/uploads/2019/08/home-banner-slider-3.jpg)">
                         <div class="overlay ">
@@ -177,7 +192,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-2">
+                <div class="col-12 col-md-6 col-lg-2 ">
                     <a href="http://axilthemes.com/themes/papr/category/computer/" class="list-inner_slider"
                         style="background-image: url(https://cdn.shortpixel.ai/client/q_lossless,ret_img/http://axilthemes.com/themes/papr/wp-content/uploads/2019/08/home-03-post-img-01.jpg)">
                         <div class="overlay ">
@@ -188,7 +203,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-2">
+                <div class="col-12 col-md-6 col-lg-2 ">
                     <a href="http://axilthemes.com/themes/papr/category/contests/" class="list-inner_slider"
                         style="background-image: url(https://cdn.shortpixel.ai/client/q_lossless,ret_img/http://axilthemes.com/themes/papr/wp-content/uploads/2019/08/home-03-post-img-03.jpg)">
                         <div class="overlay ">
@@ -199,13 +214,12 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-2">
+                <div class="col-12 col-md-6 col-lg-2 ">
                     <a href="http://axilthemes.com/themes/papr/category/electronics/" class="list-inner_slider"
                         style="background-image: url(https://cdn.shortpixel.ai/client/q_lossless,ret_img/http://axilthemes.com/themes/papr/wp-content/uploads/2019/08/post-img-01.jpg)">
                         <div class="overlay ">
                             <div class="plus-c align-items-center d-flex flex-column justify-content-center">
-                                <span
-                                    class="counter">1+</span>
+                                <span class="counter">1+</span>
                                 <h4 class="h4-class">Electronics</h4>
                             </div>
                         </div>
@@ -220,10 +234,10 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="row ">
-                            <div class="col-5 hoving">
+                            <div class="col-lg-5 col-md-12 hoving">
                                 <img class="home-banner" style="width: 90%;" src="home-banner-slider-2-400x400.jpg">
                             </div>
-                            <div class="col-7">
+                            <div class="col-lg-7 col-md-12 d-flex flex-column justify-content-around">
                                 <h5 style="font-size: 1.5rem; width: 86px; background-color: #007aff;">COMPUTER</h5>
                                 <h1 style="font-weight: bold;">Compare Prices Find The Best Computer Accessory</h1>
                                 <p>By Ashley Graham <i class="feather icon-activity"></i> 78 Views</p>
@@ -234,19 +248,94 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12">
+                    <div class="col-12" style="padding-top: 20px;">
                         <div class="row">
-                            <div class="col-5 hoving">
-                                <img class="home-banner" style="width: 90%;" src="home-banner-slider-2-400x400.jpg">
+                            <div class="col-lg-5 col-md-12 hoving">
+                                <img class="home-banner" style="width: 90%;" src="home-03-post-img-06-400x400.jpg">
                             </div>
-                            <div class="col-7">
-                                <h5 style="font-size: 1.5rem; width: 86px; background-color: #007aff;">COMPUTER</h5>
-                                <h1 style="font-weight: bold;">Compare Prices Find The Best Computer Accessory</h1>
+                            <div class="col-lg-7 col-md-12 d-flex flex-column justify-content-around">
+                                <h5 style="font-size: 1.5rem; width: 110px; background-color: #ff3a30;">ACCESSORIES</h5>
+                                <h1 style="font-weight: bold;">Going Wireless With Your Headphones</h1>
+                                <p>By Ashley Graham <i class="feather icon-activity"></i> 86 Views</p>
+                                <p style="font-size: 1.8rem;">It’s not always easy to put those big feelings in words.
+                                    Which is where Dribble comes in. For those of us who want to say</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12" style="padding-top: 20px;">
+                        <div class="row">
+                            <div class="col-lg-5 col-md-12 hoving">
+                                <img class="home-banner" style="width: 90%;" src="home-03-post-img-01-400x400.jpg">
+                            </div>
+                            <div class="col-lg-7 col-md-12 d-flex flex-column justify-content-around">
+                                <h5 style="font-size: 1.5rem; width: 70px; background-color: #ca9cf4;">POLITICS</h5>
+                                <h1 style="font-weight: bold;">Will The Democrats Be Able To Reverse The Online Gambling
+                                    Ban</h1>
                                 <p>By Ashley Graham <i class="feather icon-activity"></i> 78 Views</p>
                                 <p style="font-size: 1.8rem;">These eight shots crystallize the hard work moms put into
-                                    keeping
-                                    their kids alive, happy, and
-                                    healthy. They might give you the inspiration you need</p>
+                                    keeping their kids alive, happy, and healthy. They might give you the inspiration
+                                    you need</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12" style="padding-top: 20px;">
+                        <div class="row">
+                            <div class="col-lg-5 col-md-12 hoving">
+                                <img class="home-banner" style="width: 90%;" src="recent-post-01-400x400.jpg">
+                            </div>
+                            <div class="col-lg-7 col-md-12 d-flex flex-column justify-content-around">
+                                <h5 style="font-size: 1.5rem; width: 61px; background-color: #fecc00;">CLOTHS</h5>
+                                <h1 style="font-weight: bold;">Old Fashioned Recipe For Preventing Allergies And
+                                    Chemical Sensitivities</h1>
+                                <p>By Ashley Graham <i class="feather icon-activity"></i> 87 Views</p>
+                                <p style="font-size: 1.8rem;">For those of us who want to say thank you to our moms,
+                                    it’s not always easy to put those big feelings in words. Which</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12" style="padding-top: 20px;">
+                        <div class="row">
+                            <div class="col-lg-5 col-md-12 hoving">
+                                <img class="home-banner" style="width: 90%;" src="recent-post-04-400x400.jpg">
+                            </div>
+                            <div class="col-lg-7 col-md-12 d-flex flex-column justify-content-around">
+                                <h5 style="font-size: 1.5rem; width: 110px; background-color: #4cd965;">ELECTRONICS</h5>
+                                <h1 style="font-weight: bold;">Sony Laptops Are Still Part Of The Sony Family</h1>
+                                <p>By Ashley Graham <i class="feather icon-activity"></i> 79 Views</p>
+                                <p style="font-size: 1.8rem;">For those of us who want to say thank you to our moms,
+                                    it’s not always easy to put those big feelings in words. Which</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12" style="padding-top: 20px;">
+                        <div class="row">
+                            <div class="col-lg-5 col-md-12 hoving">
+                                <img class="home-banner" style="width: 90%;" src="main-1.jpg">
+                            </div>
+                            <div class="col-lg-7 col-md-12 d-flex flex-column justify-content-around">
+                                <h5 style="font-size: 1.5rem; width: 60px; background-color: #ca9cf4;">BEAUTY</h5>
+                                <h1 style="font-weight: bold;">How to Find Your Perfect Foundation Shade Match for a
+                                    Seamless Makeup Base</h1>
+                                <p>By Ashley Graham <i class="feather icon-activity"></i> 103 Views</p>
+                                <p style="font-size: 1.8rem;">These eight shots crystallize the hard work moms put into
+                                    keeping their kids alive, happy, and healthy. They might give you the inspiration
+                                    you need</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12" style="padding-top: 20px;">
+                        <div class="row">
+                            <div class="col-lg-5 col-md-12 hoving">
+                                <img class="home-banner" style="width: 90%;" src="main-2.jpg">
+                            </div>
+                            <div class="col-lg-7 col-md-12 d-flex flex-column justify-content-around">
+                                <h5 style="font-size: 1.5rem; width: 60px; background-color: #3cd289;">HEALTH</h5>
+                                <h1 style="font-weight: bold;">Billie Eilish Just Landed Her First High Fashion Campaign
+                                </h1>
+                                <p>By Ashley Graham <i class="feather icon-activity"></i> 220 Views</p>
+                                <p style="font-size: 1.8rem;">If you’ve been waiting for an invitation, this calligraphy
+                                    is it. Commissioned by Facebook, this is a hand-lettered design for a poster. Quote
+                                    is Facebook</p>
                             </div>
                         </div>
                     </div>
@@ -258,62 +347,323 @@
                 <div class="social row">
                     <div class="col-12">
                         <div class="row">
-                        <div class="col-3">
-                            <a href="#" class="fa fa-facebook"><span class="d-flex flex-column align-items-center">
-                                    <p>0</p>
-                                    <p>Likes</p>
-                                </span></a>
-                        </div>
-                        <div class="col-3">
-                            <a href="#" class="fa fa-twitter"><span class="d-flex flex-column align-items-center">
-                                    <p>0</p>
-                                    <p>Likes</p>
-                                </span></a>
-                        </div>
-                        <div class="col-3">
-                            <a href="#" class="fa fa-youtube"><span class="d-flex flex-column align-items-center">
-                                    <p>0</p>
-                                    <p>Likes</p>
-                                </span></a>
-                        </div>
-                        <div class="col-3">
-                            <a href="#" class="fa fa-linkedin"><span class="d-flex flex-column align-items-center">
-                                    <p>0</p>
-                                    <p>Likes</p>
-                                </span></a>
-                        </div>
-                        <div class="col-3">
-                            <a href="#" class="fa fa-vimeo"><span class="d-flex flex-column align-items-center">
-                                    <p>0</p>
-                                    <p>Likes</p>
-                                </span></a>
-                        </div>
-                        <div class="col-3">
-                            <a href="#" class="fa fa-pinterest"><span class="d-flex flex-column align-items-center">
-                                    <p>0</p>
-                                    <p>Likes</p>
-                                </span></a>
-                        </div>
-                        <div class="col-3">
-                            <a href="#" class="fa fa-instagram"><span class="d-flex flex-column align-items-center">
-                                    <p>0</p>
-                                    <p>Likes</p>
-                                </span></a>
-                        </div>
-                        <div class="col-3">
-                            <a href="#" class="fa fa-rss"><span class="d-flex flex-column align-items-center">
-                                    <p>0</p>
-                                    <p>Likes</p>
-                                </span></a>
+                            <div class="col-lg-3 col-md-6 col-12 ">
+                                <a href="#" class="fa fa-facebook"><span class="d-flex flex-column align-items-center">
+                                        <p>0</p>
+                                        <p>Likes</p>
+                                    </span></a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-12">
+                                <a href="#" class="fa fa-twitter"><span class="d-flex flex-column align-items-center">
+                                        <p>0</p>
+                                        <p>Likes</p>
+                                    </span></a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-12">
+                                <a href="#" class="fa fa-youtube"><span class="d-flex flex-column align-items-center">
+                                        <p>0</p>
+                                        <p>Likes</p>
+                                    </span></a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-12">
+                                <a href="#" class="fa fa-linkedin"><span class="d-flex flex-column align-items-center">
+                                        <p>0</p>
+                                        <p>Likes</p>
+                                    </span></a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-12">
+                                <a href="#" class="fa fa-vimeo"><span class="d-flex flex-column align-items-center">
+                                        <p>0</p>
+                                        <p>Likes</p>
+                                    </span></a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-12">
+                                <a href="#" class="fa fa-pinterest"><span class="d-flex flex-column align-items-center">
+                                        <p>0</p>
+                                        <p>Likes</p>
+                                    </span></a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-12">
+                                <a href="#" class="fa fa-instagram"><span class="d-flex flex-column align-items-center">
+                                        <p>0</p>
+                                        <p>Likes</p>
+                                    </span></a>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-12">
+                                <a href="#" class="fa fa-rss"><span class="d-flex flex-column align-items-center">
+                                        <p>0</p>
+                                        <p>Likes</p>
+                                    </span></a>
+                            </div>
                         </div>
                     </div>
+                    <div class="col-12 d-flex flex-column justify-content-around"
+                        style="height: 450px; background-color: white;padding: 30px;">
+                        <div class="navig-icon"><img class="svg-file" src="send.svg"></div>
+                        <h1 style="font-weight: bold;">Subscribe To Our Weekly Newsletter</h1>
+                        <h5 style="font-size: 16px;">No spam, notifications only about new products, updates.</h5>
+                        <div><input style="height: 40px;" type="email" class="form-control"
+                                id="exampleFormControlInput1" placeholder="Enter Email Address"></div>
+                        <div><button style="color: white;background: #ff2c54;width: 100px;height: 40px;" type="button"
+                                class="btn"><b>SUBSCRIBE</b></button></div>
                     </div>
                     <div class="col-12">
-                        <div class="navig-icon"><img class="svg-file" src="send.svg"></div>
-                        <h1>Subscribe To Our Weekly Newsletter</h1>
-                        <h5>No spam, notifications only about new products, updates.</h5>
-                        <div><input type="email" placeholder="Enter Email Address"></div>
-                        <div><button>SUBSCRIBE</button></div>
+                        <h2 style="border-bottom: 1px solid rgb(212, 212, 212);padding-bottom: 10px;font-weight: bold;">
+                            Categories</h2>
+                        <div class="row">
+                            <div class="div-1 col-6">
+                                <div class="div-2">
+                                    <a href="http://axilthemes.com/themes/papr/category/accessories/" class="list-inner"
+                                        style="background-image: url(https://cdn.shortpixel.ai/client/q_lossless,ret_img/http://axilthemes.com/themes/papr/wp-content/uploads/2019/08/home-03-post-img-02.jpg);">
+                                        <div class="post-info-wrapper overlay">
+                                            <div class="counter-inner"><span class="counter">1</span>
+                                            </div>
+                                            <h4 class="cat-title" style="color: #d3d7d3;font-weight: bold;">Accessories
+                                            </h4>
+                                        </div>
+                                        <!-- End of .counter-wrapper -->
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="div-1 col-6">
+                                <div class="div-2">
+                                    <a href="http://axilthemes.com/themes/papr/category/adventure/" class="list-inner"
+                                        style="background-image: url(https://cdn.shortpixel.ai/client/q_lossless,ret_img/http://axilthemes.com/themes/papr/wp-content/uploads/2019/08/post-img-01.jpg)">
+                                        <div class="post-info-wrapper overlay">
+                                            <div class="counter-inner"><span class="counter">1</span>
+                                            </div>
+                                            <h4 class="cat-title" style="color: #d3d7d3;font-weight: bold;">Adventure
+                                            </h4>
+                                        </div>
+                                        <!-- End of .counter-wrapper -->
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="div-1 col-6">
+                                <div class="div-2">
+                                    <a href="http://axilthemes.com/themes/papr/category/advertising/" class="list-inner"
+                                        style="background-image: url(https://cdn.shortpixel.ai/client/q_lossless,ret_img/http://axilthemes.com/themes/papr/wp-content/uploads/2019/08/Technology.jpg)">
+                                        <div class="post-info-wrapper overlay">
+                                            <div class="counter-inner"><span class="counter">1</span>
+                                            </div>
+                                            <h4 class="cat-title" style="color: #d3d7d3;font-weight: bold;">Advertising
+                                            </h4>
+                                        </div>
+                                        <!-- End of .counter-wrapper -->
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="div-1 col-6">
+                                <div class="div-2">
+                                    <a href="http://axilthemes.com/themes/papr/category/travel/airplane/"
+                                        class="list-inner"
+                                        style="background-image: url(https://cdn.shortpixel.ai/client/q_lossless,ret_img/http://axilthemes.com/themes/papr/wp-content/uploads/2019/11/golf.jpg)">
+                                        <div class="post-info-wrapper overlay">
+                                            <div class="counter-inner"><span class="counter">1</span>
+                                            </div>
+                                            <h4 class="cat-title" style="color: #d3d7d3;font-weight: bold;">Airplane
+                                            </h4>
+                                        </div>
+                                        <!-- End of .counter-wrapper -->
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="row" style="padding-left: 5px;padding-right: 45px;height: 60px;">
+                            <ul class="nav nav-pills mb-3 w-100 for-c" id="pills-tab" role="tablist">
+                                <li class="nav-item" style="width: calc(100% / 3);height: 100px;">
+                                    <a style="height: 40px;border:1px solid rgb(218, 218, 218);align-items: center;display: flex;justify-content: center;"
+                                        class="nav-link active" id="pills-home-tab" data-toggle="pill"
+                                        href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">
+                                        <p style="padding-top: 10px;font-size: 15px;font-weight: bold;color: #c1c6ca;;">
+                                            RECENT</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item" style="width: calc(100% / 3);">
+                                    <a class="nav-link"
+                                        style="height: 40px;border:1px solid rgb(218, 218, 218);align-items: center;display: flex;justify-content: center;"
+                                        id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
+                                        aria-controls="pills-profile" aria-selected="false">
+                                        <p style="padding-top: 10px;font-size: 15px;font-weight: bold;color: #c1c6ca;;">
+                                            POPULAR</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item" style="width: calc(100% / 3);">
+                                    <a class="nav-link"
+                                        style="height: 40px;border:1px solid rgb(218, 218, 218);align-items: center;display: flex;justify-content: center;"
+                                        id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
+                                        aria-controls="pills-contact" aria-selected="false">
+                                        <p style="padding-top: 10px;font-size: 15px;font-weight: bold;color: #c1c6ca;;">
+                                            TRENDY</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="tab-content" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                                    aria-labelledby="pills-home-tab">
+                                    <div class="d-flex">
+                                        <div class="d-flex" style="padding-right: 10px;padding-bottom: 20px;"><img
+                                                style="width:120px;height: 120px;" src="carona.jpg"></div>
+                                        <div class="d-flex flex-column justify-content-between">
+                                            <h3 style="font-weight: bold;">Informal consultation on prioritization of
+                                                candidate vaccines agents for use in novel coronavirus 2019 infection
+                                            </h3>
+                                            <p>By Ashley Graham</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex">
+                                        <div class="d-flex" style="padding-right: 10px;padding-bottom: 20px;"><img
+                                                style="width:120px;height: 120px;" src="carona2.jpg"></div>
+                                        <div class="d-flex flex-column justify-content-between">
+                                            <h3 style="font-weight: bold;">Global research and innovation forum: towards
+                                                a research roadmap</h3>
+                                            <p>By Ashley Graham</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex">
+                                        <div class="d-flex" style="padding-right: 10px;padding-bottom: 20px;"><img
+                                                style="width:120px;height: 120px;" src="carona3.jpg"></div>
+                                        <div class="d-flex flex-column justify-content-between">
+                                            <h3 style="font-weight: bold;">Coronavirus disease (COVID-2019) R&D</h3>
+                                            <p>By Ashley Graham</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex">
+                                        <div class="d-flex" style="padding-right: 10px;padding-bottom: 20px;"><img
+                                                style="width:120px;height: 120px;" src="carona4.jpg"></div>
+                                        <div class="d-flex flex-column justify-content-between">
+                                            <h3 style="font-weight: bold;">Introducing A Revolutionary Method To Master
+                                                Caronavairus.</h3>
+                                            <p>By Ashley Graham</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                                    aria-labelledby="pills-profile-tab">
+                                    <div class="d-flex">
+                                        <div class="d-flex" style="padding-right: 10px;padding-bottom: 20px;"><img
+                                                style="width:120px;height: 120px;" src="secon-1.jpg"></div>
+                                        <div class="d-flex flex-column justify-content-between">
+                                            <h3 style="font-weight: bold;">50 Years After The Moon Landing: How Close Is
+                                                Space Travel, Really?</h3>
+                                            <p>By Ashley Graham</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex">
+                                        <div class="d-flex" style="padding-right: 10px;padding-bottom: 20px;"><img
+                                                style="width:120px;height: 120px;" src="second-2.jpg"></div>
+                                        <div class="d-flex flex-column justify-content-between">
+                                            <h3 style="font-weight: bold;">Tesla’s Cooking Up A New Way To Wire Its
+                                                Cars, Report Says</h3>
+                                            <p>By Ashley Graham</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex">
+                                        <div class="d-flex" style="padding-right: 10px;padding-bottom: 20px;"><img
+                                                style="width:120px;height: 120px;" src="secon-3.jpg"></div>
+                                        <div class="d-flex flex-column justify-content-between">
+                                            <h3 style="font-weight: bold;">Trip To Iqaluit In Nunavut A Canadian Arctic
+                                                City</h3>
+                                            <p>By Ashley Graham</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex">
+                                        <div class="d-flex" style="padding-right: 10px;padding-bottom: 20px;"><img
+                                                style="width:120px;height: 120px;" src="second-4.jpg"></div>
+                                        <div class="d-flex flex-column justify-content-between">
+                                            <h3 style="font-weight: bold;">African Nations Are Struggling To Save Their
+                                                Wildlife</h3>
+                                            <p>By Ashley Graham</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="pills-contact" role="tabpanel"
+                                    aria-labelledby="pills-contact-tab">
+                                    <div class="d-flex">
+                                        <div class="d-flex" style="padding-right: 10px;padding-bottom: 20px;"><img
+                                                style="width:120px;height: 120px;" src="third-1.jpg"></div>
+                                        <div class="d-flex flex-column justify-content-between">
+                                            <h3 style="font-weight: bold;">VR Is the Use of Computer Technology to
+                                                Create a Simulated Environment.</h3>
+                                            <p>By Ashley Graham</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex">
+                                        <div class="d-flex" style="padding-right: 10px;padding-bottom: 20px;"><img
+                                                style="width:120px;height: 120px;" src="third-2.jpg"></div>
+                                        <div class="d-flex flex-column justify-content-between">
+                                            <h3 style="font-weight: bold;">50 Years After The Moon Landing: How Close Is
+                                                Space Travel, Really?</h3>
+                                            <p>By Ashley Graham</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex">
+                                        <div class="d-flex" style="padding-right: 10px;padding-bottom: 20px;"><img
+                                                style="width:120px;height: 120px;" src="third-3.jpg"></div>
+                                        <div class="d-flex flex-column justify-content-between">
+                                            <h3 style="font-weight: bold;">How To Handle Every TECHNOLOGY Challenge With
+                                                Ease Using These Tips</h3>
+                                            <p>By Ashley Graham</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex">
+                                        <div class="d-flex" style="padding-right: 10px;padding-bottom: 20px;"><img
+                                                style="width:120px;height: 120px;" src="third-4.jpg"></div>
+                                        <div class="d-flex flex-column justify-content-between">
+                                            <h3 style="font-weight: bold;">I Was Happy For My Wife To Carry Our First
+                                                Child. Then The Belly Envy Hit.</h3>
+                                            <p>By Ashley Graham</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <h3
+                            style="font-weight: bold; border-bottom: 1px solid rgb(211, 211, 211);padding-bottom: 20px;">
+                            Instagram</h3>
+                    </div>
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="ust-div col-4">
+                                <img style="width: 100%;"
+                                    src="https://scontent.cdninstagram.com/v/t51.2885-15/e15/s150x150/75225547_581729462642601_6802014628955144300_n.jpg?_nc_ht=scontent.cdninstagram.com&_nc_ohc=EcImVw2tU_kAX8DraKv&oh=359405a08477272e79fc0ee6ab390b58&oe=5EAC9E58">
+                            </div>
+                            <div class="ust-div col-4">
+                                <img style="width: 100%;"
+                                    src="https://scontent.cdninstagram.com/v/t51.2885-15/e15/s150x150/71812334_408720393121810_8032858713322327977_n.jpg?_nc_ht=scontent.cdninstagram.com&_nc_ohc=poXklr8G0fwAX-VzWiE&oh=aaf94d64616d76bda5178b324e683bf7&oe=5EAAB67A">
+                            </div>
+                            <div class="ust-div col-4">
+                                <img style="width: 100%;"
+                                    src="https://scontent.cdninstagram.com/v/t51.2885-15/e15/s150x150/71292907_2426383980962912_4936217813483490039_n.jpg?_nc_ht=scontent.cdninstagram.com&_nc_ohc=GvahL3GkYkIAX8KLpQs&oh=1f12a89eefc31fa9fd72f13ebb17f999&oe=5EA2F21E"
+                                    alt="">
+                            </div>
+                            <div class="ust-div col-4">
+                                <img style="width: 100%;"
+                                    src="https://scontent.cdninstagram.com/v/t51.2885-15/e15/s150x150/70772565_491841378331980_6769652093200937510_n.jpg?_nc_ht=scontent.cdninstagram.com&_nc_ohc=Vn0-csAz2m0AX-UUAWX&oh=43ad7d6547d258b59c3a5e93de5861e9&oe=5EA25504">
+                            </div>
+                            <div class="ust-div col-4">
+                                <img style="width: 100%;"
+                                    src="https://scontent.cdninstagram.com/v/t51.2885-15/e15/s150x150/69827843_2376781245872985_3837616573595152152_n.jpg?_nc_ht=scontent.cdninstagram.com&_nc_ohc=irVX2ITrvtoAX-wyCg5&oh=95581fb7fccaf2290bf05177e02ed257&oe=5EB20EDD">
+                            </div>
+                            <div class="ust-div col-4">
+                                <img style="width: 100%;"
+                                    src="https://scontent.cdninstagram.com/v/t51.2885-15/e15/s150x150/71170969_135052031122399_5274382914782840300_n.jpg?_nc_ht=scontent.cdninstagram.com&_nc_ohc=gCZps-WAQusAX_eS-Jt&oh=8712030b01e213f66d791976c4a73075&oe=5EA381D5">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 p-1 mt-4">
+                        <button style="background-color: #ff2c54;" type="button"
+                            class=" px-5 py-2 btn btn-primary d-flex align-items-center justify-content-center"><i
+                                style="font-size:14px; width: 15px;" class="fa p-0">&#xf16d;</i><span
+                                style="font-weight: bold;font-size: 12px;">FOLLOW US</span></button>
                     </div>
                 </div>
             </div>
@@ -321,6 +671,82 @@
 
     </div>
 
+    <div class="footer" style="height: 600px;background-color: black;">
+        <div class="col-12">
+            <div class="footer-th d-flex">
+                <div class="col-2 d-flex flex-column justify-content-around">
+                    <h3>World</h3>
+                    <p>U.N.</p>
+                    <p>Conflicts</p>
+                    <p>Terrorism</p>
+                    <p>Disasters</p>
+                    <p>Global Economy</p>
+                    <p>Global Economy</p>
+                    <p>Environment</p>
+                    <p>Religion</p>
+                    <p>Scandals</p>
+                </div>
+                <div class="col-2 d-flex flex-column justify-content-around">
+                    <h3>International</h3>
+                    <p>Executive</p>
+                    <p>Senate</p>
+                    <p>House</p>
+                    <p>Judiciary</p>
+                    <p>Foreign policy</p>
+                    <p>Polls</p>
+                    <p>Elections</p>
+                </div>
+                <div class="col-2 d-flex flex-column justify-content-around">
+                    <h3>Entertainment</h3>
+                    <p>Celebrity News</p>
+                    <p>Movies</p>
+                    <p>TV News</p>
+                    <p>Music News</p>
+                    <p>Style News</p>
+                    <p>Entertainment video</p>
+                </div>
+                <div class="col-2 d-flex flex-column justify-content-around">
+                    <h3>Business</h3>
+                    <p>Markets</p>
+                    <p>Politics</p>
+                    <p>Technology</p>
+                    <p>Features</p>
+                    <p>Business Leaders</p>
+                </div>
+                <div class="col-2 d-flex flex-column justify-content-around">
+                    <h3>Health</h3>
+                    <p>Healthy Living</p>
+                    <p>Medical Research</p>
+                    <p>Mental Health</p>
+                    <p>Cancer</p>
+                    <p>Heart Health</p>
+                    <p>Children's Health</p>
+                </div>
+                <div class="col-2 d-flex flex-column justify-content-around">
+                    <h3>About</h3>
+                    <p>Contact Us</p>
+                    <p>About Us</p>
+                    <p>Fox Around the Worl</p>
+                    <p>Advertise With Us</p>
+                    <p>Ad Choices</p>
+                    <p>Media Relations</p>
+                    <p>Compliance</p>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex justify-content-between">
+            <img style="padding-top: 70px;padding-left: 20px;"
+                src="http://axilthemes.com/themes/papr/wp-content/themes/papr/assets/img/logo-symbol.svg" alt="Papr">
+            <div class="soci" style="padding-right: 50px;padding-top: 70px;"><span
+                    style="font-size: 15px;color: white;font-weight: bold;">Find us here</span>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-linkedin-in"></i>
+                <i class="fab fa-youtube"></i>
+                <i class="fab fa-pinterest"></i>
+            </div>
+        </div>
+    </div>
     <script>
         document.querySelector('.header-home').addEventListener('click', function () {
             document.querySelector('.first-list').classList.toggle('show1');
@@ -328,6 +754,11 @@
     </script>
     <script>
         document.querySelector('.header-hamburger').addEventListener('click', function () {
+            document.querySelector('.right-menu').classList.toggle('showi');
+        })
+    </script>
+    <script>
+        document.querySelector('.x-but').addEventListener('click', function () {
             document.querySelector('.right-menu').classList.toggle('showi');
         })
     </script>
